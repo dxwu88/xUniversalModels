@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Component.cpp
+  ComponentCollection.cpp
+  dllmain.cpp
+  Flash.cpp
+c:\working_copy\testsundials\xuniversalmodels\flash.cpp(97): warning C4101: 'j': unreferenced local variable
+  Util.cpp
+  xUniversalModels.cpp
+     Creating library C:\working_copy\TestSundials\x64\Release\xUniversalModels.lib and object C:\working_copy\TestSundials\x64\Release\xUniversalModels.exp
+  Generating code
+  All 285 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  xUniversalModels.vcxproj -> C:\working_copy\TestSundials\x64\Release\xUniversalModels.dll

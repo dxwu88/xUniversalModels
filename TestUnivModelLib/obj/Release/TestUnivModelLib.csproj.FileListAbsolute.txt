@@ -1,0 +1,16 @@
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Release\TestUnivModelLib.exe.config
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Release\TestUnivModelLib.exe
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Release\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Release\TestUnivModelLib.csproj.CoreCompileInputs.cache
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Release\TestUnivModelLib.exe
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Release\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\TestUnivModelLib\x64\Release\TestUnivModelLib.exe.config
+C:\working_copy\TestSundials\TestUnivModelLib\x64\Release\TestUnivModelLib.exe
+C:\working_copy\TestSundials\TestUnivModelLib\x64\Release\TestUnivModelLib.pdb
+C:\x64\Release\TestUnivModelLib.exe.config
+C:\x64\Release\TestUnivModelLib.exe
+C:\x64\Release\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\x64\Release\TestUnivModelLib.exe.config
+C:\working_copy\TestSundials\x64\Release\TestUnivModelLib.exe
+C:\working_copy\TestSundials\x64\Release\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Release\TestUnivModelLib.csprojAssemblyReference.cache

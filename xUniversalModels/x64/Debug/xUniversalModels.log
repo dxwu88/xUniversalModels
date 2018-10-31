@@ -1,0 +1,34 @@
+﻿  stdafx.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  APIThermodynamics.cpp
+c:\working_copy\testsundials\xuniversalmodels\apithermodynamics.cpp(177): warning C4101: 'Patm': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\apithermodynamics.cpp(177): warning C4101: 'VF': unreferenced local variable
+  Component.cpp
+  ComponentCollection.cpp
+  dllmain.cpp
+  EOSFlash.cpp
+  Flash.cpp
+c:\working_copy\testsundials\xuniversalmodels\flash.cpp(100): warning C4101: 'j': unreferenced local variable
+  ODESolver.cpp
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(172): warning C4101: 'flagr': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(173): warning C4101: 'rootsfound': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(352): warning C4101: 'flagr': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(353): warning C4101: 'rootsfound': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'y2': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'y1': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'yd4': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'yd2': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'y3': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'yd3': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'yd1': unreferenced local variable
+c:\working_copy\testsundials\xuniversalmodels\odesolver.cpp(465): warning C4101: 'y4': unreferenced local variable
+  RapidFlash.cpp
+  Reaction.cpp
+  ReactionCollection.cpp
+  ThermoDynamics.cpp
+  Util.cpp
+  xUniversalModels.cpp
+  Generating Code...
+c:\working_copy\testsundials\xuniversalmodels\util.cpp(78): warning C4715: 'Util::AtomBalance': not all control paths return a value
+     Creating library C:\working_copy\TestSundials\x64\Debug\xUniversalModels.lib and object C:\working_copy\TestSundials\x64\Debug\xUniversalModels.exp
+  xUniversalModels.vcxproj -> C:\working_copy\TestSundials\x64\Debug\xUniversalModels.dll

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0AF1DDC9-2195-421E-9D95-66AE020E52F0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>xUniversalModels</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;XUNIVERSALMODELS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\Others\boost_1_65_1;$(MSMPI_INC);$(MSMPI_INC)\x64;C:\working_copy\Others\sundials-3.1.1\include;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Others\boost_1_65_1\lib32-msvc-14.1;$(MSMPI_LIB64);C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\arkode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvodes;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\ida;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\idas;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\kinsol;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\nvec_ser;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sundials;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_pcg;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spbcgs;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spfgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_sptfqmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_sparse;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sundials_arkode.lib;sundials_cvode.lib;sundials_cvodes.lib;sundials_ida.lib;sundials_idas.lib;sundials_kinsol.lib;sundials_nvecserial.lib;msmpi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;XUNIVERSALMODELS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(MSMPI_INC);$(MSMPI_INC)\x64;C:\working_copy\Others\sundials-3.1.1\include;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\include;..\..\Others\boost_1_65_1</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(MSMPI_LIB64);C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\arkode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvodes;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\ida;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\idas;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\kinsol;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\nvec_ser;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sundials;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_pcg;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spbcgs;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spfgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_sptfqmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_sparse;..\..\Others\boost_1_65_1\lib32-msvc-14.1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sundials_arkode.lib;sundials_cvode.lib;sundials_cvodes.lib;sundials_ida.lib;sundials_idas.lib;sundials_kinsol.lib;sundials_nvecserial.lib;msmpi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;XUNIVERSALMODELS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;XUNIVERSALMODELS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\Others\boost_1_65_1;$(MSMPI_INC);$(MSMPI_INC)\x64;..\..\Others\sundials-3.1.1\include;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\Others\boost_1_65_1\lib32-msvc-14.1;$(MSMPI_LIB64);C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\arkode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvode;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\cvodes;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\ida;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\idas;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\kinsol;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\nvec_ser;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sundials;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_pcg;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spbcgs;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spfgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_spgmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunlinsol_sptfqmr;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_band;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_dense;C:\Users\e341673\CMakeBuilds\dbee2f38-c535-203a-8251-13a4b506cc5c\build\x64-Release\src\sunmat_sparse</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sundials_arkode.lib;sundials_cvode.lib;sundials_cvodes.lib;sundials_ida.lib;sundials_idas.lib;sundials_kinsol.lib;sundials_nvecserial.lib;msmpi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="APIThermodynamics.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentCollection.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="EOSFlash.h" />
+    <ClInclude Include="Flash.h" />
+    <ClInclude Include="ODESolver.h" />
+    <ClInclude Include="RapidFlash.h" />
+    <ClInclude Include="Reaction.h" />
+    <ClInclude Include="ReactionCollection.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StructAndEnum.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThermoDynamics.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APIThermodynamics.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentCollection.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="EOSFlash.cpp" />
+    <ClCompile Include="Flash.cpp" />
+    <ClCompile Include="ODESolver.cpp" />
+    <ClCompile Include="RapidFlash.cpp" />
+    <ClCompile Include="Reaction.cpp" />
+    <ClCompile Include="ReactionCollection.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ThermoDynamics.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="xUniversalModels.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

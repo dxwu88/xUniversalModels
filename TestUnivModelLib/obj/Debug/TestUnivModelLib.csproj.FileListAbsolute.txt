@@ -1,0 +1,10 @@
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Debug\TestUnivModelLib.exe.config
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Debug\TestUnivModelLib.exe
+C:\working_copy\TestSundials\TestUnivModelLib\bin\Debug\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Debug\TestUnivModelLib.csproj.CoreCompileInputs.cache
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Debug\TestUnivModelLib.exe
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Debug\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\x64\Debug\TestUnivModelLib.exe.config
+C:\working_copy\TestSundials\x64\Debug\TestUnivModelLib.exe
+C:\working_copy\TestSundials\x64\Debug\TestUnivModelLib.pdb
+C:\working_copy\TestSundials\TestUnivModelLib\obj\Debug\TestUnivModelLib.csprojAssemblyReference.cache

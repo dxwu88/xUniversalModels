@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  ODESolver.cpp
+c:\working_copy\testsundials\testsundials\odesolver.cpp(148): warning C4101: 'flagr': unreferenced local variable
+c:\working_copy\testsundials\testsundials\odesolver.cpp(149): warning C4101: 'rootsfound': unreferenced local variable
+  TestSundials.cpp
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1205,5): warning MSB8012: TargetPath(C:\working_copy\TestSundials\x64\Debug\TestSundials.exe) does not match the Linker's OutputFile property value (C:\working_copy\TestSundials\bin\TestSundials.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  TestSundials.vcxproj -> C:\working_copy\TestSundials\x64\Debug\TestSundials.exe
